@@ -26,7 +26,7 @@ module.exports = function(grunt) {
                 livereload: true
             },
             src: {
-				files: ['index.html']
+				files: ['index.html', '!node_modules/**']
 			}
 		}
 
